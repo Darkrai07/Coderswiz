@@ -1,10 +1,10 @@
 lower = 100
 upper = 2000
 
-for num in range(lower, upper + 1)
+for num in range(lower, upper + 1):
 
    # order of number
-   order = len((num))
+   order = len(str(num))
     
    # initialize sum
    sum = 0
@@ -16,4 +16,4 @@ for num in range(lower, upper + 1)
        temp //= 1
 
    if num == sum:
-       print()
+       print(sum)
